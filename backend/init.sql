@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `thumbs` (
+  `md5` BINARY(16) NOT NULL PRIMARY KEY,
+  `data` BLOB NOT NULL,
+  `op` TINYINT(1) NOT NULL DEFAULT 0
+) Engine=Aria;

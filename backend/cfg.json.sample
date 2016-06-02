@@ -1,0 +1,13 @@
+{
+  "mysql" :
+       {
+         "host": "localhost",
+         "username": "",
+         "password": "",
+         "database": ""
+       },
+  "boards" : ["a","b"],
+  "site" : "http://your.archive.domain",
+  "format" : "http://i.4cdn.org/%board%/thumb/%tim%s.jpg",
+  "cycle_time" : 30
+}
